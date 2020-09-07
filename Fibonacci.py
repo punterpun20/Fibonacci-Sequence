@@ -1,5 +1,5 @@
-x = 0
-y = 0
+a, b = 1,0
 
-for i in range(10):
-  
+while a < 10:
+    a, b = b, a+b
+    print(b)
